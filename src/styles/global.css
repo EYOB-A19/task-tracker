@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
+  background-image: url(../assets/2h-media-8-4tNra9pGA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  cursor: pointer;
+}
+/* Light mode (default) */
+
+/* Dark mode */
+body.dark {
+  background-image: none;
+  background-color: #121212;
+  color: white;
+}
